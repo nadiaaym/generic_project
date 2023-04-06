@@ -4,8 +4,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.testng.annotations.Test;
+import utilities.CommonOps;
 
-public class LoginPageTest {
+public class LoginPageTest extends CommonOps {
 
     @FindBy(how = How.NAME, using = "")
     public WebElement txt_username;
